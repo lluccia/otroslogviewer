@@ -1,6 +1,6 @@
 # Introduction #
 
-OtrosLogViewer can load custom [LogImporter](http://code.google.com/p/otroslogviewer/source/browse/trunk/OtrosLogViewer-app/src/main/java/pl/otros/logview/importer/LogImporter.java).
+OtrosLogViewer can load custom [LogImporter](https://raw.githubusercontent.com/otros-systems/otroslogviewer/master/OtrosLogViewer-app/src/main/java/pl/otros/logview/api/importer/LogImporter.java).
 
 
 # Details #

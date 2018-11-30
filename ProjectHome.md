@@ -31,13 +31,13 @@ Using **BitCoin**: 1JYDZMysFaXv1u58susqEqX4ukdtSnLLpW
   * Listening on a socket
   * Adding notes to log event
   * Saving/loading log investigation (with added marks and notes)
-  * [Integration with IntelliJ IDEA](http://code.google.com/p/otroslogviewer/wiki/JumpToCode)
+  * [Integration with IntelliJ IDEA](https://github.com/otros-systems/otroslogviewer/wiki/JumpToCode)
 
 
 ## Included parsers ##
   * Java Util Logging XMLFormatter
   * Java Util Logging SimpleFormatter
-  * log4j pattern layout [(how to create your own)](http://code.google.com/p/otroslogviewer/wiki/Log4jPatternLayout)
+  * log4j pattern layout [(how to create your own)](https://github.com/otros-systems/otroslogviewer/wiki/Log4jPatternLayout)
   * log4j XMLLayout
 
 ## Included filters ##
@@ -58,10 +58,10 @@ Filter level WARNING or higher and highlighting:
 
 ![http://lh5.ggpht.com/_qGxhLPhk4wE/TTixTV-fyNI/AAAAAAAAA18/ILCMZ_siOIE/olv-2011-01-20.png](http://lh5.ggpht.com/_qGxhLPhk4wE/TTixTV-fyNI/AAAAAAAAA18/ILCMZ_siOIE/olv-2011-01-20.png)
 
-[Click here to see more screenshots](http://code.google.com/p/otroslogviewer/wiki/Screenshots)
+[Click here to see more screenshots](https://github.com/otros-systems/otroslogviewer/wiki/Screenshots)
 
 ## Video ##
-[Screen cap recording ](http://code.google.com/p/otroslogviewer/wiki/Wideo)
+[Screen cap recording ](https://github.com/otros-systems/otroslogviewer/wiki/Wideo)
 
 ## Powered by ##
   * Apache commons: net, lang, vfs, httpclient, logging, collections, compress, io
@@ -78,9 +78,9 @@ Filter level WARNING or higher and highlighting:
 ## Similar software ##
   * [Retrospective](http://www.retrospective.centeractive.com?olv)
   * [log.io](http://logio.org/)
-  * [Apache chainsaw](http://logging.apache.org/chainsaw/index.html)
+  * [Apache chainsaw](https://logging.apache.org/chainsaw)
   * [Lilith](http://lilith.huxhorn.de/)
-  * [eclipse logviewer](http://code.google.com/a/eclipselabs.org/p/logviewer/)
+  * [eclipse logviewer](https://anb0s.github.io/LogViewer/)
   * [Vigilog](http://vigilog.sourceforge.net/index.html)
   * [JLogViewer](http://sourceforge.net/projects/jlogviewer/)
 

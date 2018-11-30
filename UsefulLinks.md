@@ -7,9 +7,9 @@
   * [Archive Log files Using Spring Data MongoDB](http://blog.aparnachaudhary.net/2012/04/09/archive-log-files-using-spring-data-mongodb/)
 
 ## Similar software ##
-  * [Apache chainsaw](http://logging.apache.org/chainsaw/index.html)
+  * [Apache chainsaw](https://logging.apache.org/chainsaw)
   * [Lilith](http://lilith.huxhorn.de/)
-  * [eclipse logviewer](http://code.google.com/a/eclipselabs.org/p/logviewer/)
+  * [eclipse logviewer](https://anb0s.github.io/LogViewer/)
   * [Vigilog](http://vigilog.sourceforge.net/index.html)
   * [JLogViewer](http://sourceforge.net/projects/jlogviewer/)
   * [log.io](http://logio.org/)

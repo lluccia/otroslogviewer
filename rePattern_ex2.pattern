@@ -1,5 +1,5 @@
 name=rePattern with optional ignore and capture strings
-description=Example from https://code.google.com/p/otroslogviewer/wiki/Log4jPatternLayout
+description=Example from https://github.com/otros-systems/otroslogviewer/wiki/Log4jPatternLayout
 
 type=log4j
 rePattern=(\\S+ \\S+)\\d (\\S+) +(\\S+) +(?:\\[TID:(\\d+)?[^\\]]*\\] )?(?:User:(\\S+) )?(.*)

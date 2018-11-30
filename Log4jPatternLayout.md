@@ -137,12 +137,12 @@ To repeat from the setup of example #1 above, we want to load log files written 
 
 `%d %-5p [%t] %C{2} (%F:%L) - %m%n `
 
-Here is the complete, working `*.pattern` file to load it using `rePattern`.  You can download this as [rePattern\_ex1.pattern](http://wiki.otroslogviewer.googlecode.com/git/rePattern_ex1.pattern).
+Here is the complete, working `*.pattern` file to load it using `rePattern`.  You can download this as [rePattern\_ex1.pattern](https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/rePattern_ex1.pattern).
 ```properties
 
 ```
 name=rePattern emulating Simple Log4j pattern
-description=Example from https://code.google.com/p/otroslogviewer/wiki/Log4jPatternLayout
+description=Example from https://github.com/otros-systems/otroslogviewer/wiki/Log4jPatternLayout
 
 type=log4j
 rePattern=(\\S+ \\S+) (\\S+) +\\[([^\\]]+)\\] (\\S+) \\(([^:]+):(\\d+)\\) - (.+)
@@ -167,7 +167,7 @@ To convert this to simple `pattern` usage, remove the `#` character from the `pa
 This is a realistic example where you are capturing log files that contain some text that you want to ignore, and which has fields that are not always represented.
 The log files may have been written by a non-Java application or even shell scripts.
 
-Here are sample lines from a log file that we want to view.  To try out the example, download this as   You can download this as [rePattern\_ex2.log](http://wiki.otroslogviewer.googlecode.com/git/rePattern_ex2.log).
+Here are sample lines from a log file that we want to view.  To try out the example, download this as   You can download this as [rePattern\_ex2.log](https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/rePattern_ex2.log).
 ```
 2013-12-27 10:41:42,7928 Presentation FATAL [TID:4321] User:blaine A fatal message
 2013-12-27 10:41:42,8037 Core         INFO  User:debbie An info message
@@ -184,10 +184,10 @@ Not the following peculiarities here that a simple `pattern` specification can't
   * The user field is sometimes present and sometimes not.  We will capture this to the predefined field "NDC" so they will be presented in a dedicated column.  (More importantly, as of today, custom fields may not be optional like our user field is here).
   * We want to capture the application level field (which is always present) to a custom field named `APPLEVEL`.  (Custom fields are presented in the OLV Properties column).
 
-Here is the pattern file that works for this.  You can download this as [rePattern\_ex2.pattern](http://wiki.otroslogviewer.googlecode.com/git/rePattern_ex2.pattern)
+Here is the pattern file that works for this.  You can download this as [rePattern\_ex2.pattern](https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/rePattern_ex2.pattern)
 ```
 name=rePattern with optional ignore and capture strings
-description=Example from https://code.google.com/p/otroslogviewer/wiki/Log4jPatternLayout
+description=Example from https://github.com/otros-systems/otroslogviewer/wiki/Log4jPatternLayout
 
 type=log4j
 rePattern=(\\S+ \\S+)\\d (\\S+) +(\\S+) +(?:\\[TID:(\\d+)?[^\\]]*\\] )?(?:User:(\\S+) )?(.*)
@@ -204,6 +204,6 @@ MESSAGE.group=6
 ```
 
 And finally, here is what you see when you load the log file sample above with the pattern file above:
-![http://wiki.otroslogviewer.googlecode.com/git/rePattern-ex2.png](http://wiki.otroslogviewer.googlecode.com/git/rePattern-ex2.png)
+![https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/rePattern-ex2.png](https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/rePattern-ex2.png)
 
 

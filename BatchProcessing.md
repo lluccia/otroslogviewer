@@ -16,10 +16,10 @@ OtrosLogViewer provides 3 entry points in batch processing.
   * when processing of all files is started or finished (see Notify when processing of all files is started or finished)
 
 ### Implement your own logic ###
-To process the log in batch mode, create a class that implements the interface [LogDataParsedListener](https://raw.githubusercontent.com/otros-systems/otroslogviewer/master/OtrosLogViewer-app/src/main/java/pl/otros/logview/batch/LogDataParsedListener.java) and select your implementation when starting OLV. For every parsed log event method  `void logDataParsed(LogData data, BatchProcessingContext context)` is called.
+To process the log in batch mode, create a class that implements the interface [LogDataParsedListener](https://raw.githubusercontent.com/otros-systems/otroslogviewer/master/OtrosLogViewer-app/src/main/java/pl/otros/logview/api/batch/LogDataParsedListener.java) and select your implementation when starting OLV. For every parsed log event method  `void logDataParsed(LogData data, BatchProcessingContext context)` is called.
 
 ### Notify when processing of a new log file is started or finished ###
-If you want to be notified when parsing of a new log file is started or finished, implement [SingleFileBatchProcessingListener](https://raw.githubusercontent.com/otros-systems/otroslogviewer/master/OtrosLogViewer-app/src/main/java/pl/otros/logview/batch/SingleFileBatchProcessingListener.java).
+If you want to be notified when parsing of a new log file is started or finished, implement [SingleFileBatchProcessingListener](https://raw.githubusercontent.com/otros-systems/otroslogviewer/master/OtrosLogViewer-app/src/main/java/pl/otros/logview/api/batch/SingleFileBatchProcessingListener.java).
 
 ` SingleFileBatchProcessingListener ` interface looks like the following:
 
@@ -37,7 +37,7 @@ Method ` processingFileFinished ` is called after processing the file.
 
 
 ### Notify when processing of all files is started or finished ###
-If you want to be notified when a new log parsing is started or finished, implement [BatchProcessingListener](https://raw.githubusercontent.com/otros-systems/otroslogviewer/master/OtrosLogViewer-app/src/main/java/pl/otros/logview/batch/BatchProcessingListener.java).
+If you want to be notified when a new log parsing is started or finished, implement [BatchProcessingListener](https://raw.githubusercontent.com/otros-systems/otroslogviewer/master/OtrosLogViewer-app/src/main/java/pl/otros/logview/api/batch/BatchProcessingListener.java).
 
 ` BatchProcessingListener ` interface looks like the following:
 

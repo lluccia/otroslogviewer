@@ -4,10 +4,10 @@ Jump to code is integration of OtrosLogViewer with Java IDE (currently we are su
 
 
 This is how tooltip with code fragment looks like:
-![http://wiki.otroslogviewer.googlecode.com/git/screen-IdeIntegration-tooltip.png](http://wiki.otroslogviewer.googlecode.com/git/screen-IdeIntegration-tooltip.png)
+![https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/screen-IdeIntegration-tooltip.png](https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/screen-IdeIntegration-tooltip.png)
 
 On screenshot below is shown how IDEA Intellij performs jump to code (yellow line):
-![http://wiki.otroslogviewer.googlecode.com/git/screen-IdeIntegration-jump.png](http://wiki.otroslogviewer.googlecode.com/git/screen-IdeIntegration-jump.png)
+![https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/screen-IdeIntegration-jump.png](https://raw.githubusercontent.com/otros-systems/otroslogviewer/wiki/screen-IdeIntegration-jump.png)
 
 Integration with Intellij IDEA is more advance. It requires information only about logging class or logger and log message. Based on this it will try to locate part of code responsilble for logging.
 

@@ -1,5 +1,5 @@
 name=rePattern emulating Simple Log4j
-description=Example from https://code.google.com/p/otroslogviewer/wiki/Log4jPatternLayout
+description=Example from https://github.com/otros-systems/otroslogviewer/wiki/Log4jPatternLayout
 
 type=log4j
 rePattern=(\\S+ \\S+) (\\S+) +\\[([^\\]]+)\\] (\\S+) \\(([^:]+):(\\d+)\\) - (.+)
